@@ -119,6 +119,11 @@ python tts_rvc_ui.py
 
 ---
 
+- **RVC Sample Model**:
+  - A sample `.pth` voice conversion model is included in `rvc_models/`.
+  - You can replace it with your own model.
+
+
 ## 📁 Dataset
 
 The dataset is hosted on Kaggle:
