@@ -1,0 +1,28 @@
+# Python cache ve geçici dosyalar
+__pycache__/
+*.py[cod]
+*.so
+
+# Sanal ortamlar
+.venv/
+env/
+venv/
+
+# IDE dosyaları
+.vscode/
+.idea/
+
+# Model ve veri klasörleri
+datasets/
+local_models/
+models/
+rvc_models/
+outputs/
+
+# Ses ve medya dosyaları
+*.wav
+*.mp3
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
