@@ -128,7 +128,7 @@ python tts_rvc_ui.py
 
 The dataset is hosted on Kaggle:
 
-🔗 **[Download from Kaggle](https://www.kaggle.com/your-dataset-link)**
+🔗 **[Download from Kaggle](https://www.kaggle.com/datasets/anills/turkish-call-center-conversations/data)** 
 
 Expected format:
 
