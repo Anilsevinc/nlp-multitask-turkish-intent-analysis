@@ -79,7 +79,9 @@ project-root/
 ```
 
 > ⚠️ **Excluded from repository:**
-> - `datasets/` → See [Dataset](#dataset)
+> - > - `datasets/` → See [Dataset](#dataset)
+
+<a name="dataset"></a>
 > - `models/`, `local_models/` → Downloaded from Hugging Face
 > - `rvc_models/` → `.pth` files (manual)
 > - `outputs/` → Generated results
