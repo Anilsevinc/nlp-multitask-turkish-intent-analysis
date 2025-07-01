@@ -135,18 +135,38 @@ The dataset is hosted on Kaggle:
 Expected format:
 
 ```json
-{
-  "conversations": [
-    {
-      "speaker": "customer",
-      "text": "Merhaba, kargom hâlâ gelmedi."
-    },
-    {
-      "speaker": "agent",
-      "text": "Hemen kontrol ediyorum."
-    }
-  ]
-}
+[
+  {
+    "conversation_id": 1,
+    "category": "Finansal Hizmetler",
+    "speaker": "customer",
+    "text": "Merhaba, son satın alımımla ilgili bir faturalama sorunum var. Sipariş numaram BB987654321. Tahsil edilmesi gereken 50 $ yerine 75 $ ödedim."
+  },
+  {
+    "conversation_id": 1,
+    "category": "Finansal Hizmetler",
+    "speaker": "representative",
+    "text": "Bu durumu duyduğuma üzüldüm. Hesabınıza bir göz atacağım ve sorunu çözmeye çalışacağım.(Temsilci araştırma yapar)"
+  },
+  {
+    "conversation_id": 1,
+    "category": "Finansal Hizmetler",
+    "speaker": "representative",
+    "text": "Siparişinizi inceledim ve faturalama hatası buldum. Özür dilerim. Fark tutarını iade edeceğim ve iadeniz önümüzdeki 3-5 iş günü içinde hesabınızda olacak."
+  },
+  {
+    "conversation_id": 1,
+    "category": "Finansal Hizmetler",
+    "speaker": "customer",
+    "text": "Evet, bu kabul edilebilir. Teşekkür ederim."
+  },
+  {
+    "conversation_id": 1,
+    "category": "Finansal Hizmetler",
+    "speaker": "representative",
+    "text": "İadenizi işlemek için kredi kartınızın son dört hanesine ihtiyacım var."
+  }
+]
 ```
 
 ---
