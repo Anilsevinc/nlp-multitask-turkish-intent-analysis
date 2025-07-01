@@ -79,9 +79,7 @@ project-root/
 ```
 
 > ⚠️ **Excluded from repository:**
-> - > - `datasets/` → See [Dataset](#dataset)
-
-<a name="dataset"></a>
+> - `datasets/` → Please check the 📁 Dataset section
 > - `models/`, `local_models/` → Downloaded from Hugging Face
 > - `rvc_models/` → `.pth` files (manual)
 > - `outputs/` → Generated results
@@ -126,7 +124,9 @@ python tts_rvc_ui.py
   - You can replace it with your own model.
 
 
+
 ## 📁 Dataset
+
 
 The dataset is hosted on Kaggle:
 
